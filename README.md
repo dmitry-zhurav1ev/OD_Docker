@@ -7,7 +7,7 @@
 docker-compose up
 ```
 После чего нажмите Enter
-7. После сборки в конце будут строки:
+5. После сборки в конце будут строки:
 
 ```bash
 jupyter-1  |     Or copy and paste one of these URLs:
