@@ -4,6 +4,7 @@
 3. Нажать _Create codespace on main_
 4. На вкладке _Терминал_ после `@UserName ➜ /workspaces/OD_Docker (main) $ ` введите следующую команду: `docker-compose up`
 5. После сборки в конце будут строки:
+
 `jupyter-1  |     Or copy and paste one of these URLs:`
 `jupyter-1  |         http://587a5778436d:8888/lab?token=token_example`
 `jupyter-1  |         http://127.0.0.1:8888/lab?token=token_example`
