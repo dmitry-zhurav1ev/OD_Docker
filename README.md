@@ -1,5 +1,5 @@
 # Запуск (только на Windows)
-1. Нажать зелёную кнопку <Code>
+1. Нажать зелёную кнопку _Code_
 2. Перейти на вкладку _Codespaces_
 3. Нажать _Create codespace on main_
 4. На вкладке _Терминал_ после `@UserName ➜ /workspaces/OD_Docker (main) $ ` введите следующую команду: `docker-compose up`
