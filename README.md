@@ -1,5 +1,4 @@
 # Запуск
-***
 1. Нажать зелёную кнопку _Code_
 2. Перейти на вкладку _Codespaces_
 3. Нажать _Create codespace on main_
