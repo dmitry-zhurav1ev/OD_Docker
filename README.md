@@ -2,7 +2,7 @@
 1. Нажать зелёную кнопку _Code_
 2. Перейти на вкладку _Codespaces_
 3. Нажать _Create codespace on main_
-4. На вкладке _Терминал_ после `@UserName ➜ /workspaces/OD_Docker (main) $ ` введите следующую команду: `docker-compose up` и нажмите Enter
+4. На вкладке _Терминал_ после `@UserName ➜ /workspaces/OD_Docker (main) $` введите следующую команду: `docker-compose up` и нажмите Enter
 5. После сборки в конце будут строки:
 
 `jupyter-1  |     Or copy and paste one of these URLs:`
