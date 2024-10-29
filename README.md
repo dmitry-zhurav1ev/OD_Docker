@@ -12,4 +12,6 @@
 `jupyter-1  |         http://127.0.0.1:8888/lab?token=token_example`
 
 Переходите по второй ссылке, нажав CTRL + щелчок мыши.
+
+
 6. Если Jupyter Notebook не открылася сразу и появилась вкладка, где сверху будет поле _Password or token_, вставьте в него _token_example_ из ссылки выше.
