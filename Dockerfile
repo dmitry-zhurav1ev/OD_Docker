@@ -1,11 +1,13 @@
-
 FROM jupyter/scipy-notebook:latest
 
+RUN conda install -y mamba -n base -c conda-forge
+RUN mamba install -y numpy opencv pillow tk pyqt
+RUN mamba install -y pytorch torchvision torchaudio cpuonly -c pytorch
+RUN pip install ultralytics
+
+# Копирование файлов после установки пакетов
 COPY model.ipynb /home/jovyan/
 COPY ./dataset_teeth /home/jovyan/
-
-RUN pip install numpy opencv-python pillow tk ultralytics pyqt5
-RUN pip install torch torchvision torchaudio
 
 WORKDIR /home/jovyan/
 

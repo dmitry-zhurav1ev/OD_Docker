@@ -1,4 +1,4 @@
-version: '3.8'
+version: '2.4'
 
 services:
   jupyter:
@@ -8,3 +8,6 @@ services:
     volumes:
       - ./model.ipynb:/home/jovyan/model.ipynb
       - ./dataset_teeth:/home/jovyan/dataset_teeth
+    mem_limit: 8g
+    cpus: 4.0
+    
